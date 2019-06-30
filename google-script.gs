@@ -1,5 +1,5 @@
 function fch(site ,type,strategy){
-  const API_KEY =  "AIzaSyAwMOerYE4_5j8082LrOBKf_jM5Wu8Jy6A";
+  const API_KEY =  "your-api-key";
   const site_url = site;
   const url_key= "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=";
   const url = url_key.concat(site_url,'&key=',API_KEY,'&strategy=',strategy);
