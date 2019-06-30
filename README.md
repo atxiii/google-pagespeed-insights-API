@@ -1,4 +1,4 @@
-# Function google page speed insights for google spreadsheet with API and google Apps script
+# Function "google page speed insights" for "google spreadsheet" with "API" and "google Apps script"
 
 > [Demo](https://docs.google.com/spreadsheets/d/15mPVxhuZ8W2r__F0F17RLjR1s2E2KPdzQf5KEBePBlw/edit?usp=sharing)
 
@@ -15,7 +15,7 @@ Set up an API [key](https://console.developers.google.com/apis/credentials)
 
 4- paste below code
 
-```
+```javascript
 function fch(site ,type,strategy){
   const API_KEY =  "AIzaSyAwMOerYE4_5j8082LrOBKf_jM5Wu8Jy6A";
   const site_url = site;
